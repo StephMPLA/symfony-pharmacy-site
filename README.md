@@ -21,6 +21,8 @@ clean data modeling, and Symfony / Doctrine best practices.
 - OneToMany / ManyToOne relationships
 - Business-oriented data modeling
 - Doctrine migrations
+- Fixtures
+- Faker
 
 ---
 
