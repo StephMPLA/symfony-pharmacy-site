@@ -1,3 +1,8 @@
+## License and Usage
+
+This project is provided for demonstration purposes only.
+Any reuse or commercial use without explicit permission is prohibited.
+
 # Symfony Pharmacy Catalog
 
 ## Project Overview

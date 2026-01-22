@@ -1,5 +1,68 @@
 @import "tailwindcss";
 
+@import "tailwindcss";
+
+:root {
+    /* Global */
+    --bg: #f6fefe;
+    --bg-panel: #d1f3f1;
+    --text: #134e4a;
+    --border: #99f6e4;
+    --accent: #14b8a6;
+    color-scheme: light;
+    --category-bg: #064e4d;          /* fond catégorie en sombre */
+    --category-text: #ccfbf1;        /* texte catégorie en sombre */
+    --category-border: #134e4a;      /* bordure sombre */
+    --category-hover-bg: #0f766e;    /* hover sombre */
+    --category-hover-text: #f6fefe;  /* hover text */
+    /* Catégories (LIGHT) */
+    --button-hover-bg: #0f766e; /* teal sombre */
+
+}
+
+.dark {
+    /* Global */
+    --bg: #0D1514;
+    --bg-panel: #064e4d;
+    --text: #ADF0DD;
+    --border: #134e4a;
+    --accent: #2dd4bf;
+    color-scheme: dark;
+
+    /* Catégories (DARK) */
+    --category-bg: #ffffff;          /* fond catégorie en clair */
+    --category-text: #0f766e;        /* texte catégorie en clair */
+    --category-border: #99f6e4;      /* bordure */
+    --category-hover-bg: #e6f9f8;    /* hover */
+    --category-hover-text: #134e4a;  /* hover text */
+    --button-hover-bg: #ccfbf1; /* teal-2 / doux */
+
+}
+
 body {
-    background-color: #FFF7ED;
+    background-color: var(--bg);
+    color: var(--text);
+}
+
+.categories {
+    background: var(--category-bg);
+    border: 1px solid var(--category-border);
+}
+
+.categories a {
+    color: var(--category-text);
+}
+
+.categories a:hover {
+    background: var(--category-hover-bg);
+    color: var(--category-hover-text);
+}
+.card {
+    background: var(--bg-panel);
+    border: 1px solid var(--border);
+}
+
+.button-primary {
+    background: var(--accent);
+    color: #ffffff;
 }
