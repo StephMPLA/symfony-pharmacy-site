@@ -5,9 +5,11 @@ Demonstration project of a pharmacy-style e-commerce product catalog,
 featuring a hierarchical category system (parent / children) and related products.
 
 The goal of this project is to showcase backend-oriented design,
-clean data modeling and Symfony / Doctrine best practices.
+clean data modeling, and Symfony / Doctrine best practices.
 
-##  Key Concepts
+---
+
+## Key Concepts
 - Symfony 7
 - Doctrine ORM
 - Hierarchical (recursive) categories
@@ -15,16 +17,22 @@ clean data modeling and Symfony / Doctrine best practices.
 - Business-oriented data modeling
 - Doctrine migrations
 
-##  Data Model
+---
+
+## Data Model
 - Category (id, name, parent, children)
 - Product (id, name, category)
+
+---
 
 ## Development Environment
 - Linux
 - PhpStorm
 - Symfony CLI
 - Composer
-- Docker (planned / in progress)
+- Docker (planned)
+
+---
 
 ## Run the project locally
 
